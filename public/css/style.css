@@ -1,0 +1,141 @@
+/* Blocks */
+
+.category {
+    border: 3px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 540px;
+    background-color: #ffe5c48d;
+    border-radius: 6%;
+    margin-top: 1%;
+    display: block;
+    float: left;
+    border-right: 7px solid black;
+}
+
+.goods-block {
+    float: right;
+    background-color: #ffe5c492;
+    width: 75%;
+    height: 540px;
+    display: block;
+    margin-top: 1%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3%;
+    border-right: 7px solid black;
+    overflow-y: scroll;
+    scrollbar-color: grey;
+    
+}
+
+.category-position {
+    text-align: center;
+}
+
+/* Button */
+
+.category-button {
+    margin-top: 3%;
+    font-size:xx-large;
+    border-radius: 6%;
+    padding: 7%;
+    border-right: 5px solid black;
+}
+
+.button-add-cart {
+    float: right;
+}
+
+.title {
+    border-right: 5px solid black;
+    height: 40px;
+    left: 10%;
+    position: absolute;
+    margin-left: -30px;
+    top: 0;
+    margin-top: 0.3%;
+}
+
+.shop-link {
+    margin-left: 2%;
+    font-size: x-large;
+}
+
+.shopping-cart-link {
+    position: absolute;
+    margin-left: 10%;
+    top: 0;
+    margin-top: 0.6%;
+    font-size: x-large;
+}
+
+.food {
+    display: inline-block;
+    text-align: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    margin-left: 45px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+
+/* ------------------------------------------ */
+
+.category-basket {
+    border: 3px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 540px;
+    background-color: #ffe5c48d;
+    border-radius: 6%;
+    margin-top: 1%;
+    display: block;
+    float: left;
+    border-right: 7px solid black;
+}
+
+.goods-block-basket {
+    float: right;
+    background-color: #ffe5c492;
+    width: 58%;
+    height: 540px;
+    display: block;
+    margin-top: 1%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3%;
+    border-right: 7px solid black;
+    overflow-y: scroll;
+    scrollbar-color: grey;   
+}
+
+input {
+    width: 80%;
+}
+
+.name {
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 3%;
+}
+
+.email {
+    align-items: center;
+    margin-left: 10%;
+    padding: 3%;
+}
+
+.adress {
+    align-items: center;
+    margin-left: 10%;
+    padding: 3%;
+}
+
+.phone {
+    align-items: center;
+    margin-left: 10%;
+    padding: 3%;
+}

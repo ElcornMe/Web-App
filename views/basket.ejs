@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basket</title>
+    <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div>
+        <div>
+          <a class="shop-link" href="http://localhost:3000/">Shop</a>
+        </div>
+        <div class="title"></div>
+        <div>
+          <a class="shopping-cart-link" href="/basket">Shopping cart</a>
+        </div>
+        <div class="category-basket">
+            <div class="name">
+            <p>Name:</p><input type="text">
+            </div>
+            <div class="email">
+            <p>Email:</p><input type="email">
+            </div>
+            <div class="phone">
+            <p>Phone:</p><input type="tel">
+            </div>
+            <div class="adress">
+            <p>Adress:</p><input type="text">
+            </div>
+            </div>
+      </div>
+      <div class="goods-block-basket">
+        <% for(var i = 0; i < goodsForOrder.length; i++) {%>
+          <button class="category-button"><%= goodsForOrder[i]%></button>
+        <% } %>    
+      </div>
+      </div>
+  </body>
+</html>

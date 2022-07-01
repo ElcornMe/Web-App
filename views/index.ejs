@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+  <div>
+    <a class="shop-link" href="http://localhost:3000/">Shop</a>
+  </div>
+  <div class="title"></div>
+  <div>
+    <a class="shopping-cart-link" href="/basket">Shopping cart</a>
+  </div>
+<div class="category">
+  <div class="category-position">
+    <h3>Shops:</h3>
+        <% for(var i = 0; i < category.length; i++) {%>
+            <button class="category-button"><%= category[i]%></button>
+        <% } %>   
+  </div>
+</div>
+<div class="goods-block"> 
+  <% for(var i = 0; i < goodsByCategory.length; i++) {%>
+    <div class="food">
+      <p class="images"><img src= "<%= goodsByCategory[i].pathToImages %>"></p>
+      <p><%= goodsByCategory[i].name %>
+      <button class="button-add-cart" type="submit" id=<%= goodsByCategory[i]._id %>>Add to cart</button>
+      </p>
+    </div>
+      <% } %> 
+</div>
+</div>
+
+
+
+<!-- <form action="/goods" method="GET"> 
+  <input type="text" placeholder="name" name="name">
+  <input type="text" placeholder="goods" name="goods">
+  <button type="submit">Submit</button>
+</form> -->
+
+
+
+
+  <script src="/main.js"></script>
+</body>
+</html>
